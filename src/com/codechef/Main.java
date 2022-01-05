@@ -13,5 +13,9 @@ public class Main {
         list.addFirst(65);
         list.set(0,86);
         System.out.println(list);
+        // to traverse the elements:
+        for(int i=0;i<list.size();i++){
+            System.out.println(list.get(i));
+        }
     }
 }
